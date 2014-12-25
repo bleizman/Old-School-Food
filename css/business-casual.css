@@ -44,6 +44,10 @@ hr {
     display: none; /* doesn't display attribute */
 }
 
+.logo {
+    display: none;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
@@ -100,27 +104,21 @@ hr {
     border: #999999 solid 1px;
 }
 
-.logo {
-
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    /* float: left; /* always moves left */
-    z-index: 1;
-    padding: 10px; /* gives border radius around image */
-
-}
-
 .img-left {
     float: none;
     margin: 0 auto 0;
 }
 
-/* .navbar-header {
-    background-color: transparent;
-} */
+.img-center {
+    display: block;
+    margin: 10px auto;
+}
+
+.social-media {
+    margin: 0 auto;
+    max-
+    padding: 10%;
+}
 
 footer {
     background: #fff;
@@ -179,6 +177,7 @@ footer p {
         display: none;
     }
 
+
     .navbar-default {
         border: 0;
         background: #fff;
@@ -201,7 +200,16 @@ footer p {
         table-layout: fixed;
         font-size: 1.25em;
     }
+
+    .logo {
+        display: block;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 10px auto;
+    }
 }
+
 
 @media screen and (min-width:1200px) {
     .box:after {
