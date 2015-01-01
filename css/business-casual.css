@@ -48,6 +48,13 @@ hr {
     display: none;
 }
 
+.pics {
+    max-height: 500px;
+    min-height: 500px;
+    width: auto;
+    margin: 0 auto;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
